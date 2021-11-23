@@ -1,12 +1,13 @@
 import React from 'react';
-import Home from './components/Home';
-import Nav from './components/Nav';
-
+import { Home, Nav, Sobre, Projetos, Contato } from './components/index';
 function App() {
   return (
     <>
     <Home />
     <Nav />
+    <Sobre />
+    <Projetos />
+    <Contato />
     </>
   );
 }

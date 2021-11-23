@@ -11,7 +11,12 @@ const Nav = () => {
   }
   return (
     <nav style={contentStyle}>
-      hello world
+      <ul>
+        <a href="#home">Home</a>
+        <a href="#home">Sobre</a>
+        <a href="#home">Projetos</a>
+        <a href="#home">Contato</a>
+      </ul>
     </nav>
   )
 

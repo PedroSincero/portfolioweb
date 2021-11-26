@@ -3,7 +3,7 @@ import * as S from './contact';
 
 export default function Contact() {
   return (
-    <S.Contact>
+    <S.Contact id="contact">
     </S.Contact>
   )
 }

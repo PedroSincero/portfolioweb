@@ -9,6 +9,7 @@ export const Topbar = styled.div`
   position: fixed;
   top: 0;
   z-index: 2; // ordem de prioridade
+  transition: all 1s ease;
 
   .wrapper{
     padding: 10px 30px;
@@ -41,6 +42,47 @@ export const Topbar = styled.div`
         span{
           font-size: 15px;
           font-weight: 500;
+        }
+      }
+    }
+
+    .right{
+
+      .hamburguer{
+        width: 32px;
+        height: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+
+        span{
+          width: 100%;
+          height: 3px;
+          background-color: ${mainColor};
+          transform-origin: left;
+          transition: all 2s ease;
+        }
+      }
+    }
+  }
+
+  &.active{
+    background-color: ${mainColor};
+    color: white;
+
+    .hamburguer{
+      span{
+        &:first-child{
+          background-color: white;
+          transform: rotate(45deg);
+        }
+        &:nth-child(2){
+          opacity: 0;
+        }
+        &:last-child{
+          background-color: white;
+          transform: rotate(-45deg);
         }
       }
     }

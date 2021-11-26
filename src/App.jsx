@@ -10,7 +10,6 @@ function App() {
   return (
     <S.App>
       <Topbar />
-      oi bobo
       <div className="sections">
         <Intro />
         <Portfolio />

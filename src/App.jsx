@@ -5,13 +5,16 @@ import Portfolio from './components/portfolio/Portfolio';
 import Works from './components/works/Works';
 import Testmonials from './components/testmonials/Testmonials';
 import Contact from './components/contact/Contact';
+import Menu from './components/menu/Menu';
 import * as S from './styles/App';
+
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false)
   return (
     <S.App>
       <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <div className="sections">
         <Intro />
         <Portfolio />

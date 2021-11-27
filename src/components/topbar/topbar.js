@@ -8,7 +8,7 @@ export const Topbar = styled.div`
   color: ${mainColor};
   position: fixed;
   top: 0;
-  z-index: 2; // ordem de prioridade
+  z-index: 3; // ordem de prioridade
   transition: all 1s ease;
 
   .wrapper{

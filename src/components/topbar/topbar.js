@@ -4,8 +4,10 @@ import mainColor from '../../styles/Global';
 export const Topbar = styled.div`
   width: 100%;
   height: 70px;
-  background-color: white;
-  color: ${mainColor};
+  /* background-color: ${mainColor}, 80%; */
+  background-color: rgba(9, 10, 15, 0.1); 
+  /* background: white; */
+  color: white;
   position: fixed;
   top: 0;
   z-index: 3; // ordem de prioridade
@@ -59,7 +61,7 @@ export const Topbar = styled.div`
         span{
           width: 100%;
           height: 3px;
-          background-color: ${mainColor};
+          background-color: white;
           transform-origin: left;
           transition: all 2s ease;
         }
@@ -68,7 +70,9 @@ export const Topbar = styled.div`
   }
 
   &.active{
-    background-color: ${mainColor};
+    /* background-color: ${mainColor}, 50%; */
+    background-color: rgba(9, 10, 15, 0.1); 
+    /* background-color: red; */
     color: white;
 
     .hamburguer{

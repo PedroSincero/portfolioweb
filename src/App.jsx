@@ -13,6 +13,9 @@ function App() {
   const [menuOpen, setMenuOpen] = useState(false)
   return (
     <S.App>
+      <div id="stars" />
+      <div id="stars2" />
+      <div id="stars3" />
       <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <div className="sections">

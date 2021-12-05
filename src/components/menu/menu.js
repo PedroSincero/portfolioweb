@@ -4,7 +4,8 @@ import mainColor from '../../styles/Global';
 export const Menu = styled.div`
   width: 300px;
   height: 100vh;
-  background-color: ${mainColor};
+  /* background-color: ${mainColor}; */
+  background-color: rgba(9, 10, 15, 0.1); 
   position: fixed;
   top: 0;
   right: -300px;

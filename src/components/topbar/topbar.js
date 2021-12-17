@@ -1,13 +1,11 @@
 import styled from 'styled-components';
-import mainColor from '../../styles/Global';
+import {textPrimaryColor} from '../../styles/Global'
 
 export const Topbar = styled.div`
   width: 100%;
   height: 70px;
-  /* background-color: ${mainColor}, 80%; */
   background-color: rgba(9, 10, 15, 0.1); 
-  /* background: white; */
-  color: white;
+  color: ${textPrimaryColor};
   position: fixed;
   top: 0;
   z-index: 3; // ordem de prioridade
@@ -61,7 +59,7 @@ export const Topbar = styled.div`
         span{
           width: 100%;
           height: 3px;
-          background-color: white;
+          background-color: ${textPrimaryColor};
           transform-origin: left;
           transition: all 2s ease;
         }
@@ -70,22 +68,20 @@ export const Topbar = styled.div`
   }
 
   &.active{
-    /* background-color: ${mainColor}, 50%; */
     background-color: rgba(9, 10, 15, 0.1); 
-    /* background-color: red; */
-    color: white;
+    color: ${textPrimaryColor};
 
     .hamburguer{
       span{
         &:first-child{
-          background-color: white;
+          background-color: ${textPrimaryColor};
           transform: rotate(45deg);
         }
         &:nth-child(2){
           opacity: 0;
         }
         &:last-child{
-          background-color: white;
+          background-color: ${textPrimaryColor};
           transform: rotate(-45deg);
         }
       }

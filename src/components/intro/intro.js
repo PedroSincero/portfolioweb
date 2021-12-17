@@ -1,4 +1,7 @@
 import styled from 'styled-components';
+import {textPrimaryColor, textSecondaryColor} from '../../styles/Global'
+
+// const coloteste = '#608BA6'
 
 export const Intro = styled.div`
 /* retirar depois */
@@ -38,21 +41,21 @@ export const Rigth = styled.div`
     justify-content: center;
 
     h1{
-      color: white;
+      color: ${textPrimaryColor};
       font-size: 60px;
       margin: 10px 0;
     }
     h2{
-      color: white;
+      color: ${textPrimaryColor};
       font-size: 35px;
     }
     h3{
-      color: white;
+      color: ${textPrimaryColor};
       font-size: 30px;
 
       span{
         font-size: inherit;
-        color: rgb(244, 197, 81);
+        color: ${textSecondaryColor};
       }
 
       .ityped-cursor {
@@ -76,7 +79,7 @@ export const Rigth = styled.div`
     left: 40%;
 
     svg{
-      color: white;
+      color: ${textPrimaryColor};
       height: 80px;
       width: 80px;
       animation: arrowBlink 3s infinite;

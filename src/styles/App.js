@@ -8,8 +8,8 @@ function getShadow(n) {
 }
 
 const shadowsSmall = getShadow(900);
-const shadowsMedium = getShadow(200);
-const shadowsLarge = getShadow(100);
+const shadowsMedium = getShadow(500);
+const shadowsLarge = getShadow(300);
 
 function shadow() {
   return ` ${Math.floor(Math.random() * 2000)}px ${Math.floor(Math.random() * 2000)}px  #fff ,`
@@ -28,7 +28,7 @@ export const App = styled.div`
    height: 1px;
    background: transparent;
    box-shadow: ${shadowsSmall.substring(0, shadowsSmall.length -1)};
-   animation: animStar 50s linear infinite;
+   animation: animStar 100s linear infinite;
   }
   #stars:after {
    content: " ";
@@ -45,7 +45,7 @@ export const App = styled.div`
    height: 2px;
    background: transparent;
    box-shadow: ${shadowsMedium.substring(0, shadowsMedium.length -1)};
-   animation: animStar 50s linear infinite;
+   animation: animStar 100s linear infinite;
   }
   #stars2:after {
    content: " ";
@@ -62,7 +62,7 @@ export const App = styled.div`
    height: 3px;
    background: transparent;
    box-shadow: ${shadowsLarge.substring(0, shadowsLarge.length -1)};
-   animation: animStar 50s linear infinite;
+   animation: animStar 100s linear infinite;
   }
   #stars3:after {
    content: " ";
@@ -75,7 +75,7 @@ export const App = styled.div`
   }
   @keyframes animStar {
    from {
-     transform: translateY(-2000px);
+     transform: translateY(-1000px);
    }
    to {
      transform: translateY(-0px);

@@ -1,13 +1,13 @@
 import * as S from './topbar';
 import {Person, Mail} from '@material-ui/icons'
-import { RiMoonClearLine } from 'react-icons/ri';
+import { GiStarSwirl } from 'react-icons/gi';
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
     <S.Topbar className={ menuOpen && "active"}>
       <div className="wrapper">
         <div className="left">
-          <a href="#intro" className="logo"><RiMoonClearLine /></a>
+          <a href="#intro" className="logo"><GiStarSwirl /></a>
           <div className="itemContainer">
             <Person className="icon"/>
             <span>+55 11 982519612</span>

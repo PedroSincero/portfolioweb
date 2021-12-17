@@ -52,7 +52,7 @@ export const Rigth = styled.div`
 
       span{
         font-size: inherit;
-        color: blue;
+        color: rgb(244, 197, 81);
       }
 
       .ityped-cursor {

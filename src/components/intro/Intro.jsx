@@ -20,7 +20,7 @@ export default function Intro() {
     <S.Intro id="intro">
       <S.Left >
         <div className="imgContainer">
-          <img src="assets/omori2.jpeg" alt="" />
+          <img src="assets/omori2.jpeg" alt="oi" />
         </div>
       </S.Left>
       <S.Rigth >

@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import Topbar from './components/topbar/Topbar';
 import Intro from './components/intro/Intro';
-import Portfolio from './components/portfolio/Portfolio';
-import Works from './components/works/Works';
+import Project from './components/project/Project';
+// import Works from './components/works/Works';
 import Testmonials from './components/testmonials/Testmonials';
 import Contact from './components/contact/Contact';
 import Menu from './components/menu/Menu';
@@ -20,9 +20,9 @@ function App() {
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <div className="sections">
         <Intro />
-        <Portfolio />
-        <Works />
         <Testmonials />
+        <Project />
+        {/* <Works /> */}
         <Contact />
       </div>
     </S.App>

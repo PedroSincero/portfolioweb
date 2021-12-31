@@ -18,21 +18,16 @@ export default function Intro() {
 
   return (
     <S.Intro id="intro">
-      <S.Left >
-        <div className="imgContainer">
-          <img src="assets/omori2.jpeg" alt="oi" />
-        </div>
-      </S.Left>
-      <S.Rigth >
+      <S.Presentation >
         <div className="wrapper">
           <h2>Olá, me Chamo</h2>
           <h1>Pedro Henrique</h1>
           <h3>Sou Desenvolvedor<span ref={textRef}></span></h3>
         </div>
-        <a href="#portfolio">
+        <a href="#testmonials">
           <TiArrowDownThick />
         </a>
-      </S.Rigth>
+      </S.Presentation>
     </S.Intro>
   )
 }

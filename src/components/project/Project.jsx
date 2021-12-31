@@ -1,10 +1,10 @@
-import * as S from './portfolio'
+import * as S from './project'
 import List from './List';
 import PortfolioList from '../portfolioList/PortfolioList'
 import { useEffect, useState } from 'react';
 import {featuredPortfolio, webPortfolio, mobilePortfolio, designPortfolio, contentPortfolio} from '../data';
 
-export default function Portfolio() {
+export default function Project() {
   const [selected, setSelected] = useState('featured');
   const [data, setData] = useState([]);
 
@@ -32,7 +32,7 @@ export default function Portfolio() {
   }, [selected])
 
   return (
-    <S.Portfolio id="portfolio">
+    <S.Portfolio id="projects">
       <h1>Projetos</h1>
       <ul>
           {List.map((item, index) => (

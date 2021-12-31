@@ -7,6 +7,7 @@ export const Intro = styled.div`
 /* retirar depois */
  /* background-color: red; */
  display: flex;
+justify-content: center;
 `;
 
 export const Left = styled.div`
@@ -27,8 +28,8 @@ export const Left = styled.div`
   }
 `;
 
-export const Rigth = styled.div`
-  flex: 0.5;
+export const Presentation = styled.div`
+  /* flex: 0.5; */
   display: flex;
   position: relative;
   
@@ -42,16 +43,16 @@ export const Rigth = styled.div`
 
     h1{
       color: ${textPrimaryColor};
-      font-size: 60px;
+      font-size: 80px;
       margin: 10px 0;
     }
     h2{
       color: ${textPrimaryColor};
-      font-size: 35px;
+      font-size: 55px;
     }
     h3{
       color: ${textPrimaryColor};
-      font-size: 30px;
+      font-size: 40px;
 
       span{
         font-size: inherit;

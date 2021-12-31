@@ -22,3 +22,5 @@ https://codepen.io/stefania-dumitru/pen/JjbeNYo
 https://undraw.co/illustrations
 
 https://www.npmjs.com/package/ityped >> npm i ityped
+
+https://codepen.io/bobbykorec/pen/qOGbyr

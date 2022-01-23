@@ -3,7 +3,11 @@ https://styled-components.com/
 
 https://mui.com/pt/components/material-icons/ >> npm i @material-ui/icons
 
-https://react-icons.github.io/react-icons/ npm install react-icons --save
+https://react-icons.github.io/react-icons/ >> npm install react-icons --save
+
+https://www.npmjs.com/package/slick-carousel >> npm i slick-carousel
+
+https://www.npmjs.com/package/react-slick >> npm i react-slick
 
 https://fonts.google.com/specimen/Roboto
 

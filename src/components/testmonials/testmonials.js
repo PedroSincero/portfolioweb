@@ -8,6 +8,7 @@ export const Testmonials = styled.div`
   h1 {
     font-size:50px;
     text-align: center;
+    margin-bottom: 1vh;
   }
 `;
 
@@ -17,12 +18,13 @@ export const AboutMe = styled.div`
 
 export const Left = styled.div`
   flex: 0.5;
-  background-color: blue;
   text-align: center;
+  margin: 2vh;
   img {
     border: 4px solid;
     border-radius: 4px;
     width: 45%;
+    margin-top: 10vh;
   }
 `;
 
